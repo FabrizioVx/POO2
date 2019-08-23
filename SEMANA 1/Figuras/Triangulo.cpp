@@ -4,7 +4,6 @@
 
 #include "Triangulo.h"
 
-
 float Triangulo::Otener_area() {
     distanciaXT = pow((pow((g1-e1),2)+ pow((g2-e2),2)),0.5);
     distanciaYT = pow((pow((f1-g1),2)+pow((f2-g2),2)),0.5);
@@ -18,7 +17,7 @@ void Triangulo::Pedir_datos() {
     cout<<"\nDigite los 3 puntos que conforman su triangulo: ";
 
     cout<<"\nPrimer punto (Primer Par): ";cin>>e1;
-    triguanlito->setX(e1);
+    triguanlito->setX(e1);  
     cout<<"Segundo punto (Primer Par: ";cin>>e2;
     triguanlito->setY(e2);
 

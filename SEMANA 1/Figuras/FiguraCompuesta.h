@@ -8,6 +8,7 @@
 #include "Figura.h"
 #include "iostream"
 
+
 using namespace std;
 
 class FiguraCompuesta {
@@ -16,7 +17,7 @@ private:
 
 public:
     void Obtener_centroide();
-    void Obtener_data();
+    /*void Obtener_data();*/
 
 };
 

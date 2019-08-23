@@ -3,16 +3,13 @@
 //
 
 #include "FiguraCompuesta.h"
-#include "Rectangulo.h"
-#include "Triangulo.h"
-#include "Circulo.h"
+#include "Variables_globalesFG.h"
 
-
-void FiguraCompuesta::Obtener_centroide() {
+ void FiguraCompuesta::Obtener_centroide() {
     float x;
     float y;
 
-    Obtener_data();
+    /*Obtener_data();*/
 
     x = (A1*X1+A2*X2+A3*X3) / (A1+A2+A3);
     y = (A1+Y1+A2+Y2+A3+Y3) / (A1+A2+A3);
@@ -21,8 +18,8 @@ void FiguraCompuesta::Obtener_centroide() {
 
 
 }
-
-void FiguraCompuesta::Obtener_data() {
+/*
+ void FiguraCompuesta::Obtener_data() {
 
     Figura *rectangulo = new Rectangulo();
     Figura *triangulo = new Triangulo();
@@ -46,14 +43,9 @@ void FiguraCompuesta::Obtener_data() {
     A2 = circulo->Otener_area();
     A3 = triangulo->Otener_area();
 
-
-
-
-
-
 }
 
 
-
+*/
 
 

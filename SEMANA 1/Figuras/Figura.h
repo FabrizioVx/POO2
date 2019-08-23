@@ -7,7 +7,6 @@
 
 #include "iostream"
 #include "cmath"
-#include "Variables_globalesFG.h"
 
 typedef float f;
 
@@ -22,17 +21,16 @@ protected:
 public:
     Figura(){}
 
-    virtual float Otener_area() = 0;
-    virtual void Pedir_datos() = 0;
-    virtual void Verificar() = 0;
-
+    inline virtual float Otener_area() = 0;
+    inline virtual void Pedir_datos() = 0;
+    inline virtual void Verificar() = 0;
 
     int getX(f x);
     int getY(f y);
 
 
-    void setX(f x);
-    void setY(f y);
+     void setX(f x);
+     void setY(f y);
 
     ~Figura(){}
 };

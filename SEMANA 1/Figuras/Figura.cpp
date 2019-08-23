@@ -3,11 +3,9 @@
 //
 
 #include "Figura.h"
-
 int Figura::getX(f x){
     return x;
 }
-
 
 int Figura::getY(f y){
     return y;

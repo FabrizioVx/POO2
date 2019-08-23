@@ -4,13 +4,13 @@
 
 #include "Rectangulo.h"
 
-float Rectangulo::Otener_area() {
+ float Rectangulo::Otener_area() {
     distanciaXR = pow((pow(c1 - a1, 2) + pow(c2 - a2, 2)), 0.5);
     distanciaYR = pow((pow(b1 - a1, 2) + pow(b2 - a2, 2)), 0.5);
     return distanciaYR * distanciaXR;
 }
 
-void Rectangulo::Pedir_datos() {
+ void Rectangulo::Pedir_datos() {
      //Creando un objetivo del tipo Rectangulo con propiedades de Figura
 
     rectangulito = new Rectangulo();
@@ -63,7 +63,7 @@ void Rectangulo::Pedir_datos() {
 
 
 
-void Rectangulo::Verificar() {
+ void Rectangulo::Verificar() {
     if(rectangulito->getX(a1) == rectangulito->getX(b1)){
         if(rectangulito->getY(a2) != rectangulito->getY(b2)){
             if (rectangulito->getX(c1) == rectangulito->getX(d1)){
