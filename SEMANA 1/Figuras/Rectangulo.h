@@ -6,8 +6,6 @@
 #define INC_01_01_RECTANGULO_H
 
 #include "Figura.h"
-#include "Variables_globales.h"
-
 
 class Rectangulo: public Figura {
 

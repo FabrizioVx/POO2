@@ -3,7 +3,6 @@
 //
 
 #include "FiguraCompuesta.h"
-#include "Variables_globalesFG.h"
 
  void FiguraCompuesta::Obtener_centroide() {
     float x;

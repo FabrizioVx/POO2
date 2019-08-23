@@ -6,9 +6,7 @@
 #define INC_01_01_CIRCULO_H
 
 #include "Figura.h"
-#include "Variables_globalesC.h"
 #define PI 3.14159
-
 
 class Circulo : public Figura {
 

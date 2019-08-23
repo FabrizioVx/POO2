@@ -6,7 +6,6 @@
 #define INC_01_01_TRIANGULO_H
 
 #include "Figura.h"
-#include "Variables_globalesT.h"
 
 class Triangulo : public Figura {
 private:

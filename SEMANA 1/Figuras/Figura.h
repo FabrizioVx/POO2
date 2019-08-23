@@ -7,12 +7,13 @@
 
 #include "iostream"
 #include "cmath"
+#include "Variables_globalesFG.h"
 
 typedef float f;
 
 using namespace std;
 
-class Figura {
+class Figura{
 protected:
 
     int x=0;
@@ -21,9 +22,9 @@ protected:
 public:
     Figura(){}
 
-    inline virtual float Otener_area() = 0;
-    inline virtual void Pedir_datos() = 0;
-    inline virtual void Verificar() = 0;
+    virtual float Otener_area() = 0;
+    virtual void Pedir_datos() = 0;
+    virtual void Verificar() = 0;
 
     int getX(f x);
     int getY(f y);
