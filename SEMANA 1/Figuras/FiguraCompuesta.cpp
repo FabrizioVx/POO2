@@ -4,6 +4,7 @@
 
 #include "FiguraCompuesta.h"
 
+
  void FiguraCompuesta::Obtener_centroide() {
     float x;
     float y;
@@ -17,7 +18,7 @@
 
 
 }
-/*
+
  void FiguraCompuesta::Obtener_data() {
 
     Figura *rectangulo = new Rectangulo();
@@ -45,6 +46,5 @@
 }
 
 
-*/
 
 

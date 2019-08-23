@@ -7,6 +7,9 @@
 
 #include "Figura.h"
 #include "iostream"
+#include "Triangulo.h"
+#include "Rectangulo.h"
+#include "Circulo.h"
 
 
 using namespace std;
@@ -17,7 +20,7 @@ private:
 
 public:
     void Obtener_centroide();
-    /*void Obtener_data();*/
+    void Obtener_data();
 
 };
 
